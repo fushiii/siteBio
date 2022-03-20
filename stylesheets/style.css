@@ -1,61 +1,48 @@
+/* line 5, ../sass/style.scss */
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #202023;
 }
 
-body {
-  font-family: Montserrat, sans-serif;
-  background-color: white;
-}
-
+/* line 15, ../sass/style.scss */
 .__nav {
   position: relative;
   width: 100vw;
-  -webkit-box-shadow: 0 2px #00D84A;
-          box-shadow: 0 2px #00D84A;
+  box-shadow: 0 2px #202023;
 }
-
+/* line 21, ../sass/style.scss */
 .__nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   margin: 0 2rem;
   padding-right: 20%;
 }
-
+/* line 30, ../sass/style.scss */
 .__nav__listlogo {
   list-style: none;
   margin-right: auto;
   cursor: pointer;
 }
-
+/* line 35, ../sass/style.scss */
 .__nav__listlogo img {
   width: 6.5rem;
   height: 100%;
 }
-
+/* line 40, ../sass/style.scss */
 .__nav__listlogo svg {
   width: 2.5rem;
-  -webkit-transition: fill 500ms ease-in;
   transition: fill 500ms ease-in;
 }
-
+/* line 44, ../sass/style.scss */
 .__nav__listlogo svg:hover, .__nav__listlogo svg:focus {
-  fill: aqua;
+  fill: greenyellow;
 }
-
+/* line 54, ../sass/style.scss */
 .__nav__listitem {
   font-weight: bold;
   list-style: none;
@@ -64,18 +51,17 @@ body {
   cursor: pointer;
   color: black;
 }
-
-.__nav__listitem:hover ul,
-.__nav__listitem:focus ul {
+/* line 62, ../sass/style.scss */
+.__nav__listitem:hover ul, .__nav__listitem:focus ul {
   opacity: 100;
   visibility: visible;
 }
-
+/* line 68, ../sass/style.scss */
 .__nav__listitem a {
   color: black;
   text-decoration: none;
 }
-
+/* line 75, ../sass/style.scss */
 .__nav__listitem::after {
   content: "";
   width: 0;
@@ -83,49 +69,39 @@ body {
   position: absolute;
   left: 1rem;
   bottom: 0.8rem;
-  background-color: #00D84A;
-  -webkit-transition: 200ms ease-in;
+  background-color: #202023;
   transition: 200ms ease-in;
   border-radius: 0.2rem;
 }
-
+/* line 87, ../sass/style.scss */
 .__nav__listitem:hover::after, .__nav__listitem:focus::after {
   width: 80%;
 }
-
+/* line 92, ../sass/style.scss */
 .__nav__listitemdrop {
   position: absolute;
   gap: 0.5rem;
-  -webkit-box-shadow: 0 0 10px #00D84A;
-          box-shadow: 0 0 10px #00D84A;
+  box-shadow: 0 0 10px #202023;
   padding: 1rem;
   border-radius: 0.2rem;
   top: 4rem;
   left: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 12rem;
   background-color: white;
   opacity: 0;
   visibility: 0;
-  -webkit-transition: opacity 200ms ease-in-out;
   transition: opacity 200ms ease-in-out;
 }
-
+/* line 108, ../sass/style.scss */
 .__nav__listitemdrop li {
   list-style: none;
   padding: 0.5rem 1rem;
-  -webkit-transition: background-color 200ms ease-in-out;
   transition: background-color 200ms ease-in-out;
   border-radius: 0.2rem;
 }
-
+/* line 114, ../sass/style.scss */
 .__nav__listitemdrop li:hover {
-  background-color: rgba(0, 216, 74, 0.2);
+  background-color: rgba(32, 32, 35, 0.2);
 }
-/*# sourceMappingURL=style.css.map */

@@ -1,136 +1,128 @@
+/* line 3, ../sass/form.scss */
 * {
-  font-family: 'Fira Code', sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+/* line 8, ../sass/form.scss */
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* line 13, ../sass/form.scss */
 fieldset {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
   padding-top: 10px;
   margin-top: 10px;
 }
-
+/* line 19, ../sass/form.scss */
 fieldset legend {
   margin: auto;
   padding: 3px 5px;
   background-color: black;
   border-radius: 2px;
   color: white;
-  -webkit-box-shadow: 2px 2px #00D84A;
-          box-shadow: 2px 2px #00D84A;
+  box-shadow: 2px 2px #00D84A;
 }
-
+/* line 29, ../sass/form.scss */
 fieldset legend h2 {
   color: white;
 }
 
+/* line 39, ../sass/form.scss */
 .row-1 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 48, ../sass/form.scss */
 .row-2 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 57, ../sass/form.scss */
 .row-3 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 66, ../sass/form.scss */
 .row-4 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 75, ../sass/form.scss */
 .row-5 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 85, ../sass/form.scss */
 .row-6 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 95, ../sass/form.scss */
 .row-7 {
   width: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
 
+/* line 107, ../sass/form.scss */
 .formAluno {
   margin-bottom: 20px;
 }
-
+/* line 108, ../sass/form.scss */
 .formAluno label {
   font-size: 18px;
   font-weight: bold;
 }
-
+/* line 113, ../sass/form.scss */
 .formAluno input {
   width: 100%;
   outline: none;
   padding: 5px;
-  -webkit-transition: border-bottom 500ms ease-in-out;
   transition: border-bottom 500ms ease-in-out;
   margin-bottom: 2px;
 }
-
+/* line 120, ../sass/form.scss */
 .formAluno input:hover, .formAluno input:focus {
   border-bottom: 2px solid #00D84A;
 }
-
+/* line 127, ../sass/form.scss */
 .formAluno input[type=radio] {
   width: 20px;
   display: inline;
   padding: 5px;
 }
-/*# sourceMappingURL=form.css.map */

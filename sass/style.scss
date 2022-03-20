@@ -1,5 +1,5 @@
 $radius: 0.2rem;
-$secondaryColor: #00D84A;
+$secondaryColor: #202023;
 $primaryColor: white;
 
 *,
@@ -8,15 +8,9 @@ $primaryColor: white;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: #202023;
+
 }
 
-
-
-body {
-    font-family: Montserrat, sans-serif;
-    background-color: $primaryColor;
-}
 
 .__nav {
     position: relative;
@@ -49,7 +43,7 @@ body {
 
                 &:hover,
                 &:focus {
-                    fill: aqua;
+                    fill: greenyellow;
                 }
             }
 

@@ -1,0 +1,43 @@
+/* line 1, ../sass/base.scss */
+.container {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+/* line 8, ../sass/base.scss */
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* line 12, ../sass/base.scss */
+footer {
+  background-color: #202023;
+  height: auto;
+  width: 100vw;
+  font-family: Montserrat, sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+
+/* line 22, ../sass/base.scss */
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* line 29, ../sass/base.scss */
+.footer-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* line 35, ../sass/base.scss */
+.footer-bottom {
+  padding: 20px 0;
+  width: 100vw;
+  text-align: center;
+  background-color: black;
+}

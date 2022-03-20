@@ -1,0 +1,40 @@
+.container {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+footer {
+    background-color: #202023;
+    height: auto;
+    width: 100vw;
+    font-family: Montserrat, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    width: 100vw;
+    text-align: center;
+    background-color: black;
+}
