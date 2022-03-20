@@ -1,0 +1,131 @@
+$radius: 0.2rem;
+$secondaryColor: #00D84A;
+$primaryColor: white;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #202023;
+}
+
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: $primaryColor;
+}
+
+.__nav {
+    position: relative;
+    width: 100vw;
+    box-shadow: 0 2px $secondaryColor;
+
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 0 2rem;
+        padding-right: 20%;
+
+
+        &logo {
+            list-style: none;
+            margin-right: auto;
+            cursor: pointer;
+
+            img {
+                width: 6.5rem;
+                height: 100%;
+            }
+
+            svg {
+                width: 2.5rem;
+                transition: fill 500ms ease-in;
+
+                &:hover,
+                &:focus {
+                    fill: aqua;
+                }
+            }
+
+
+
+        }
+
+        &item {
+            font-weight: bold;
+            list-style: none;
+            position: relative;
+            padding: 1.5rem 1rem;
+            cursor: pointer;
+            color: black;
+
+            &:hover ul,
+            &:focus ul {
+                opacity: 100;
+                visibility: visible;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+
+
+            &::after {
+                content: "";
+                width: 0;
+                height: 0.3rem;
+                position: absolute;
+                left: 1rem;
+                bottom: 0.8rem;
+                background-color: $secondaryColor;
+                transition: 200ms ease-in;
+                border-radius: $radius;
+            }
+
+            &:hover::after,
+            &:focus::after {
+                width: 80%;
+            }
+
+            &drop {
+                position: absolute;
+                gap: 0.5rem;
+                box-shadow: 0 0 10px $secondaryColor;
+                padding: 1rem;
+                border-radius: $radius;
+                top: 4rem;
+                left: 1rem;
+                display: flex;
+                flex-direction: column;
+                width: 12rem;
+                background-color: $primaryColor;
+                opacity: 0;
+                visibility: 0;
+                transition: opacity 200ms ease-in-out;
+
+                li {
+                    list-style: none;
+                    padding: 0.5rem 1rem;
+                    transition: background-color 200ms ease-in-out;
+                    border-radius: $radius;
+
+                    &:hover {
+                        background-color: rgba($color: $secondaryColor, $alpha: 0.2);
+                    }
+
+
+                }
+            }
+        }
+
+    }
+
+}
