@@ -20,7 +20,7 @@
 
 <body>
     <?php
-    include 'navbar.php';
+    include 'components/navbar.php';
     ?>
 
     <div class="container">

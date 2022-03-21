@@ -19,7 +19,7 @@
 
 <body>
     <?php
-    include "navbar.php";
+    include 'components/navbar.php';
     ?>
     <br>
     <br>
