@@ -24,8 +24,12 @@
     ?>
 
     <div class="container">
-        blabla
+
     </div>
+
+    <?php
+    include "components/footer.php";
+    ?>
 </body>
 
 
