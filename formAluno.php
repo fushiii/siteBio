@@ -137,72 +137,82 @@
                 </div>
 
 
-                <div class="row-2">
+                <div class="row">
                     <div class="column">
 
-                        <label for="accountableAddress">
+                        <label for="accountableJob">
                             Profissão:
                         </label>
-                        <input type="text" name="accountableAddress">
+                        <input type="text" name="accountableJob">
                     </div>
 
                     <div class="column">
-                        <label for="accountableAddress">
-                            Estado:
+                        <label for="accountantEmployed">
+                            Estade de contrato:
                         </label>
                         <br>
-                        <input type="radio" id="kraken" name="monster">
-                        <label for="kraken">Efetivo</label><br />
-                        <input type="radio" id="sasquatch" name="monster">
-                        <label for="sasquatch">Desempegrado</label><br />
-                        <input type="radio" id="mothman" name="monster">
-                        <label for="mothman">Aposentado</label>
-
-                    </div>
-
-
-                    <div class="row-3">
-                        <div class="column">
-                            <label for="accountableAddress">
-                                Endereço:
-                            </label>
-                            <input type="text" name="accountableAddress">
-                        </div>
-                        <div class="column">
-                            <label for="accountableCounty">
-                                Município:
-                            </label>
-                            <input type="text" name="accountableAddress">
-
-                        </div>
-                        <div class="column">
-                            <label for="accountableAddress">
-                                CEP:
-                            </label>
-                            <input type="text" name="accountableAddress">
-                        </div>
-                    </div>
-                    <div class="row-2">
-                        <div class="column">
-                            <label for="accountableTelephoneHome">
-                                Tel(Residencia):
-                            </label>
-                            <input type="text" name="accountableTelephoneHome">
-
-                        </div>
-                        <div class="column">
-                            <label for="accountableTelephoneWork">
-                                Tel(Trabalho):
-                            </label>
-                            <input type="text" name="accountableTelephoneWork">
+                        <div class="radio-button">
+                            <input type="radio" id="kraken" name="monster">
+                            <label for="kraken">Efetivo</label><br />
+                            <input type="radio" id="sasquatch" name="monster">
+                            <label for="sasquatch">Contratado</label><br />
+                            <input type="radio" id="mothman" name="monster">
+                            <label for="mothman">Aposentado</label>
+                            <input type="radio" id="sasquatch" name="monster">
+                            <label for="sasquatch">Desempegrado</label><br />
+                            <input type="radio" id="mothman" name="monster">
+                            <label for="mothman">Doméstico</label>
+                            <input type="radio" id="mothman" name="monster">
+                            <label for="mothman">Outro:</label>
+                            <input type="text">
                         </div>
 
                     </div>
                 </div>
-            </form>
+
+                <div class="row-3">
+                    <div class="column">
+                        <label for="accountableAddress">
+                            Endereço:
+                        </label>
+                        <input type="text" name="accountableAddress">
+                    </div>
+                    <div class="column">
+                        <label for="accountableCounty">
+                            Município:
+                        </label>
+                        <input type="text" name="accountableAddress">
+
+                    </div>
+                    <div class="column">
+                        <label for="accountableAddress">
+                            CEP:
+                        </label>
+                        <input type="text" name="accountableAddress">
+                    </div>
+                </div>
+
+                <div class="row-2">
+                    <div class="column">
+                        <label for="accountableTelephoneHome">
+                            Tel(Residencia):
+                        </label>
+                        <input type="text" name="accountableTelephoneHome">
+
+                    </div>
+                    <div class="column">
+                        <label for="accountableTelephoneWork">
+                            Tel(Trabalho):
+                        </label>
+                        <input type="text" name="accountableTelephoneWork">
+                    </div>
+
+                </div>
+    </div>
+    </form>
 
 
-        </fieldset>
+    </fieldset>
     </div>
 
 </body>

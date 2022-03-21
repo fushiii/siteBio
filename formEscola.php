@@ -38,7 +38,7 @@
                 <br>
                 <div class="row-5">
                     Méd. Final Ano Anterior:
-                    <div class="column">
+                    <div class="column ">
                         <input type="text">
 
                     </div>

@@ -30,7 +30,7 @@ fieldset legend h2 {
 }
 
 /* line 39, ../sass/form.scss */
-.row-1 {
+.row {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -38,8 +38,7 @@ fieldset legend h2 {
   margin-bottom: 20px;
   margin: auto;
 }
-
-/* line 48, ../sass/form.scss */
+/* line 47, ../sass/form.scss */
 .row-2 {
   width: 100%;
   display: grid;
@@ -48,8 +47,7 @@ fieldset legend h2 {
   margin-bottom: 20px;
   margin: auto;
 }
-
-/* line 57, ../sass/form.scss */
+/* line 56, ../sass/form.scss */
 .row-3 {
   width: 100%;
   display: grid;
@@ -58,17 +56,15 @@ fieldset legend h2 {
   margin-bottom: 20px;
   margin: auto;
 }
-
-/* line 66, ../sass/form.scss */
+/* line 65, ../sass/form.scss */
 .row-4 {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 20px 30px;
   margin-bottom: 20px;
   margin: auto;
 }
-
 /* line 75, ../sass/form.scss */
 .row-5 {
   width: 100%;
@@ -78,8 +74,7 @@ fieldset legend h2 {
   margin-bottom: 20px;
   margin: auto;
 }
-
-/* line 85, ../sass/form.scss */
+/* line 84, ../sass/form.scss */
 .row-6 {
   width: 100%;
   display: grid;
@@ -88,8 +83,7 @@ fieldset legend h2 {
   margin-bottom: 20px;
   margin: auto;
 }
-
-/* line 95, ../sass/form.scss */
+/* line 93, ../sass/form.scss */
 .row-7 {
   width: 100%;
   display: grid;
@@ -99,16 +93,38 @@ fieldset legend h2 {
   margin: auto;
 }
 
-/* line 107, ../sass/form.scss */
+/* line 105, ../sass/form.scss */
+.radio-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 112, ../sass/form.scss */
+.radio-button label {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+/* line 117, ../sass/form.scss */
+.radio-button input[type=radio] {
+  width: 50px;
+  height: auto;
+}
+/* line 123, ../sass/form.scss */
+.radio-button input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+/* line 130, ../sass/form.scss */
 .formAluno {
   margin-bottom: 20px;
 }
-/* line 108, ../sass/form.scss */
+/* line 131, ../sass/form.scss */
 .formAluno label {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 113, ../sass/form.scss */
+/* line 136, ../sass/form.scss */
 .formAluno input {
   width: 100%;
   outline: none;
@@ -116,13 +132,7 @@ fieldset legend h2 {
   transition: border-bottom 500ms ease-in-out;
   margin-bottom: 2px;
 }
-/* line 120, ../sass/form.scss */
+/* line 143, ../sass/form.scss */
 .formAluno input:hover, .formAluno input:focus {
   border-bottom: 2px solid #00D84A;
-}
-/* line 127, ../sass/form.scss */
-.formAluno input[type=radio] {
-  width: 20px;
-  display: inline;
-  padding: 5px;
 }

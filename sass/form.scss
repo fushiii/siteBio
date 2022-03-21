@@ -36,73 +36,96 @@ fieldset {
 
 
 
-.row-1 {
+.row {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px 30px;
     margin-bottom: 20px;
     margin: auto;
+
+    &-2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 30px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    &-3 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 30px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    &-4 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px 30px;
+        margin-bottom: 20px;
+        margin: auto;
+
+    }
+
+    &-5 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px 30px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    &-6 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px 30px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    &-7 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px 30px;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
 }
 
-.row-2 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px 30px;
-    margin-bottom: 20px;
-    margin: auto;
+
+.radio-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    label {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    input[type=radio] {
+        width: 50px;
+        height: auto;
+
+    }
+
+    input {
+        border: none;
+        border-bottom: 2px solid #ccc;
+
+    }
 }
-
-.row-3 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 30px;
-    margin-bottom: 20px;
-    margin: auto;
-}
-
-.row-4 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px 30px;
-    margin-bottom: 20px;
-    margin: auto;
-}
-
-.row-5 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px 30px;
-    margin-bottom: 20px;
-    margin: auto;
-
-}
-
-.row-6 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px 30px;
-    margin-bottom: 20px;
-    margin: auto;
-
-}
-
-.row-7 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px 30px;
-    margin-bottom: 20px;
-    margin: auto;
-
-}
-
-
 
 .formAluno {
     label {
@@ -124,11 +147,6 @@ fieldset {
 
     }
 
-    input[type=radio] {
-        width: 20px;
-        display: inline;
-        padding: 5px;
-    }
 
 
 
